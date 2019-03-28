@@ -9,4 +9,4 @@ Uses `numpy`, `scipy` and `collections` libraries.
 ## Demonstration 
 ### Example 1: Bivariate bimodal Gaussian probability density
 
-  
+We draw samples from a bivariate bimodal Gaussian probability density as shown below:   
