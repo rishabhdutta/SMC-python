@@ -413,19 +413,3 @@ def SMC_samples(opt,samples, NT1, NT2):
     
     return samples
         
-# %% 
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
