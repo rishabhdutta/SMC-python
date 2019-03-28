@@ -38,10 +38,11 @@ Import the `collections` library.
 ```
 from collections import namedtuple
 ```
-Create two named tuple objects. `opt` corresponds to input parameters of the 
-sampling technique. `opt.N` is the number of Markov chains, `opt.Neff` is the 
-chain length, `opt.LB` is the lower bound of the target distribution parameters,
-and `opt.UB` is the upper bound.  
+Create two named tuple objects: `opt` and `samples`. 
+
+`opt` corresponds to input parameters of the sampling technique. `opt.N` is the
+number of Markov chains, `opt.Neff` is the chain length, `opt.LB` is the lower 
+bound of the target distribution parameters, and `opt.UB` is the upper bound.  
 
 `samples` corresponds to the information of the samples at each intermediate 
 stage. `samples.allsamples` is the ensemble of samples at final stage, `samples.postval`
