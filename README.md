@@ -10,3 +10,5 @@ Uses `numpy`, `scipy` and `collections` libraries.
 ### Example 1: Bivariate bimodal Gaussian probability density
 
 We draw samples from a bivariate bimodal Gaussian probability density as shown below:   
+![Image of Yaktocat](https://github.com/rishabhdutta/SMC-python/blob/master/figures/Figure_1.png)
+
