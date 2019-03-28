@@ -77,24 +77,21 @@ samples = NT2(None, None, None, None, None, None)
 final = SMC_samples(opt,samples, NT1, NT2)
 
 # plot the results: histograms 
-plt.subplot(1, 2, 1)
+plt.subplot(2, 1, 1)
 n, bins, patches = plt.hist(final.allsamples[:,0], 50, density=True, \
                             facecolor='b', alpha=0.75)
 
 plt.xlabel('Par 1')
 plt.ylabel('Probability')
-plt.title('Histogram')
 plt.grid(True)
-plt.show()
 
-plt.subplot(1, 2, 2)
+plt.subplot(2, 1, 2)
 n, bins, patches = plt.hist(final.allsamples[:,1], 50, density=True, \
                             facecolor='b', alpha=0.75)
 
 
 plt.xlabel('Par 2')
 plt.ylabel('Probability')
-plt.title('Histogram')
 plt.grid(True)
 plt.show()
 
