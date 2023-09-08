@@ -71,6 +71,9 @@ n, bins, patches = plt.hist(final.allsamples[:,1], 50, density=True, \
                             facecolor='b', alpha=0.75)
 ``` 
 ![Image2](https://github.com/rishabhdutta/SMC-python/blob/master/figures/Figure_2.png)
+
+
+Thanks!
                        
  
  
