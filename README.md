@@ -72,8 +72,12 @@ n, bins, patches = plt.hist(final.allsamples[:,1], 50, density=True, \
 ``` 
 ![Image2](https://github.com/rishabhdutta/SMC-python/blob/master/figures/Figure_2.png)
 
+### Citation
 
-Thanks!
-                       
+If you use our toolbox or if you find our research helpful, please cite the following paper (thanks for your support):
+
+Dutta, R., Jónsson, S., & Vasyua-Bathke, H. (2021). Simultaneous Bayesian estimation of non-planar fault geometry and spatially-variable slip. Journal of Geophysical Research: Solid Earth, 126(7), e2020JB020441.
+
+Any feedback is welcome! (rishabh421989@gmail.com)                       
  
  
